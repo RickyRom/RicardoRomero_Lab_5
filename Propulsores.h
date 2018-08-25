@@ -9,20 +9,20 @@ class Propulsores {
 
     private:
         int potencia;
-        int numserie;
+        string numserie;
 
     public:
         Propulsores();
-        Propulsores(int,int);
+        Propulsores(int,string);
         ~Propulsores();
 
         //GETTERS
         int getPotencia();
-        int getNumSerie();
+        string getNumSerie();
 
         //SETTERS
         void setPotencia(int);
-        void setNumSerie(int);
+        void setNumSerie(string);
 
 };
 #endif

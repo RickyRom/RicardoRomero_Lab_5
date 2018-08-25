@@ -6,7 +6,7 @@ Propulsores::Propulsores() {
 
 }
 
-Propulsores::Propulsores(int ppotencia, int pnumserie) {
+Propulsores::Propulsores(int ppotencia, string pnumserie) {
     potencia = ppotencia;
     numserie = pnumserie;
 }
@@ -20,7 +20,7 @@ int Propulsores::getPotencia() {
     return potencia;
 }
 
-int Propulsores::getNumSerie() {
+string Propulsores::getNumSerie() {
     return numserie;
 }
 
@@ -29,6 +29,6 @@ void Propulsores::setPotencia(int pote) {
 	potencia = pote;
 }
 
-void Propulsores::setNumSerie(int ns) {
+void Propulsores::setNumSerie(string ns) {
 	numserie = ns;
 }

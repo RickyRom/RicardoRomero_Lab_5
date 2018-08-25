@@ -1,5 +1,5 @@
 Main: 	Avion.o Propulsores.o Misiles.o Piloto.o RangeAirForce.o
-	g++ Avion.o Propulsores.o Misiles.o Piloto.o RangeAirForce.o -o RangeAirForce
+	g++ Avion.o Propulsores.o Misiles.o Piloto.o RangeAirForce.o -o Main
 
 RangeAirForce.o: 	RangeAirForce.cpp
 	g++ -c RangeAirForce.cpp
